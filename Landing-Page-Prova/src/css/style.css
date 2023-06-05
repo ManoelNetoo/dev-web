@@ -1,0 +1,161 @@
+.container {
+    max-width: 1100px;
+}
+
+header {
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+.titulo {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+}
+
+.titulo .btn {
+   background-color: #321964;
+   border-color: #321964;
+   transition: 0.5s all ease-in-out;
+}
+
+.titulo .btn:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 175px;
+    filter: invert(1);
+    padding-bottom: 30px;
+}
+
+#row-cursos {
+    background-color: #201D34;
+}
+
+.row {
+    margin: 0;
+}
+
+#row-sobre {
+    background-size: cover;
+    padding-top: 47px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-sobre img {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 45px;
+}
+
+.titulo-cor {
+    color: #021F53;
+}
+
+#row-sobre p {
+    font-size: 14px;
+}
+
+#row-dados {
+    background-color: #201D34;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.circulo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #8C52FF;
+}
+
+#row-academias {
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-academias img {
+    width: 360px;
+    margin-top: 80px !important;
+}
+
+#row-academias p {
+    font-size: 14px;
+}
+
+#row-frase {
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+}
+
+#row-contato {
+    background-size: cover;
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+
+#row-contato .btn {
+    background-color: #321964;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s all ease-in-out;
+}
+
+#row-contato .btn:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #1C1925;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 992px) {
+    .navbar-nav {
+        background-color: #8C52FF;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-left: 20px;
+    }
+}
+
+nav {
+    z-index: 100;
+}
+
+.card {
+    background-color: #201D34;
+    border: 0;
+}
+
+.card-body button {
+    background-color: #8C52FF;
+    border: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.card-body button:hover {
+    transform: scale(1.1);
+}
+
+.card-body p {
+    background-color: #8C52FF;
+    padding: 10px;
+}
